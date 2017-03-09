@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Pure stuffs: New Resources ====================-->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Copper</defName>
+    <label>copper</label>
+    <description>Very common ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Copper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.3</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> 
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+</Defs>
