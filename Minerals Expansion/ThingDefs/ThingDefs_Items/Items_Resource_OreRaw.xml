@@ -9,7 +9,7 @@
     <label>copper</label>
     <description>Very common ore.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Copper</texPath>
+      <texPath>Things/Item/Resource/copper</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>First</resourceReadoutPriority>
@@ -45,6 +45,774 @@
       <statFactors>
         <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
         <Flammability>0.2</Flammability> 
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Aluminium</defName>
+    <label>aluminium</label>
+    <description>Very common ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/aluminium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.2</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.3</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> 
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Tin</defName>
+    <label>tin</label>
+    <description>Very common ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/tin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.2</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.4</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Lead</defName>
+    <label>lead</label>
+    <description>Very common ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/lead</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.3</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Titanium</defName>
+    <label>titanium</label>
+    <description>Very rare ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/titanium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>8.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.8</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Vanadium</defName>
+    <label>vanadium</label>
+    <description>Very rare ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/vanadium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>10.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>2.1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.6</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Manganese</defName>
+    <label>manganese</label>
+    <description>Uncommon ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/manganese</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Iron</defName>
+    <label>iron</label>
+    <description>Common ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/tin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.4</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Cobalt</defName>
+    <label>cobalt</label>
+    <description>Rare ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/cobalt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Nickel</defName>
+    <label>nickel</label>
+    <description>Uncommon ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/nickel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.8</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.3</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Zinc</defName>
+    <label>zinc</label>
+    <description>Common ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/zinc</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.6</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.4</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Palladium</defName>
+    <label>palladium</label>
+    <description>Very rare ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/palladium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>10.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>2.3</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.3</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Tungsten</defName>
+    <label>tungsten</label>
+    <description>Very uncommen ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/tungsten</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.3</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.6</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Osmium</defName>
+    <label>osmium</label>
+    <description>Rare ore</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/osmium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>4.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.6</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Iridium</defName>
+    <label>iridium</label>
+    <description>Very rare ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/iridium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.2</SharpDamageMultiplier>
+      <BluntDamageMultiplier>2.3</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Platinium</defName>
+    <label>platinium</label>
+    <description>Very rare ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/platinium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.3</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.6</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
+        <Beauty>3</Beauty>
+        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+      </statFactors>
+      <smeltable>true</smeltable>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>Mercury</defName>
+    <label>mercury</label>
+    <description>Very common ore.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/mercury</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.2</MarketValue>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.4</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume> <!-- What's that -->
+    <deepCommonality>1</deepCommonality> <!-- What's that -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li> <!-- Have to be added -->
+      </categories>
+      <color>(180,173,150)</color> <!-- Example have to be done -->
+      <commonality>0.05</commonality> <!-- Have to be changed -->
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints> <!-- Have to be changed -->
+        <Flammability>0.2</Flammability> <!-- Have to be changed -->
         <Beauty>3</Beauty>
         <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
       </statFactors>
